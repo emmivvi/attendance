@@ -5,6 +5,7 @@ import './App.css';
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
+import HomePage from "/homepage"
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -72,7 +73,7 @@ function App() {
       <h1>Attendance Tracker</h1>
       <img src={Augreduvent} alt="logo" style={{ width: '50%', height: 'auto' }} /> {/* Image rendered here */}
       <p> </p>
-      <HomePage.js></HomePage.js>
+      <HomePage></HomePage>
       <GoogleCalendar />
     </div>
   );
